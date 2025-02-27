@@ -1,0 +1,18 @@
+﻿<Window x:Class="ClientApp.AddClientWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add Client" Height="400" Width="300">
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBox Name="FirstNameTextBox" ToolTip="First Name" Margin="0,0,0,10"/>
+            <TextBox Name="LastNameTextBox" ToolTip="Last Name" Margin="0,0,0,10"/>
+            <TextBox Name="GenderTextBox" ToolTip="Gender" Margin="0,0,0,10"/>
+            <TextBox Name="AddressTextBox" ToolTip="Address" Margin="0,0,0,10"/>
+            <TextBox Name="CityTextBox" ToolTip="City" Margin="0,0,0,10"/>
+            <TextBox Name="PhoneTextBox" ToolTip="Phone" Margin="0,0,0,10"/>
+            <TextBox Name="EmailTextBox" ToolTip="Email" Margin="0,0,0,10"/>
+            <TextBox Name="StatusTextBox" ToolTip="Status" Margin="0,0,0,10"/>
+            <Button Content="Save" Click="SaveButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
